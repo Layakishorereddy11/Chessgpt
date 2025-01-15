@@ -52,5 +52,8 @@ streamlit run main.py
 ### Step 5: Open the Application
 Open your web browser and navigate to http://localhost:8501 to interact with the ChessGPT application.
 
+<img width="985" alt="image" src="https://github.com/user-attachments/assets/70b378b5-2e2a-4ea3-a1c2-2e00ad698d2d" />
+
+
 
 
