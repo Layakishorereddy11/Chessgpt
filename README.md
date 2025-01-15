@@ -20,3 +20,37 @@ We embarked on a journey of exploring various architectures to identify the most
 
 ### 1.5 SUMMARY OF RESULTS: THE BEST APPROACH
 Among the architectures we explored, the custom-built Chess Transformers model (Model 4) emerged as the most successful. It consistently generated legal moves and completed entire games without errors. Other models showed varying degrees of success in generating legal moves, with the base GPT-2 model generating up to 15 legal moves before encountering difficulties, similarly Model 2 and Model 3 generated up to 20 and 30 moves respectively.
+
+## 2. INSTRUCTIONS TO RUN LOCALLY
+
+To run the ChessGPT project locally, follow these steps:
+
+### Step 1: Clone the Repository
+First, clone the repository to your local machine:
+```sh
+git clone repo
+cd ChessGPT
+```
+### Step 2: Create a Virtual Environment
+Create and activate a virtual environment to manage dependencies:
+
+```sh
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+### Step 3: Install Required Libraries
+Install the required libraries listed in the requirements.txt file:
+```sh
+pip install -r requirements.txt
+```
+
+### Step 4: Run the Streamlit Application
+Run the Streamlit application using the following command:
+```sh
+streamlit run main.py
+```
+### Step 5: Open the Application
+Open your web browser and navigate to http://localhost:8501 to interact with the ChessGPT application.
+
+
+

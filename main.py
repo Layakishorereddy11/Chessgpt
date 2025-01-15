@@ -14,8 +14,8 @@ num_layers = 12
 dropout_p = 0.1
 
 def initialize_model():
-    model_path = "/Users/layakishorereddy/Desktop/Rutgers/ChessGPT/ChesssFinal/ChessGpt_Scratch.pth"  # Update with your model path
-    tokenizer_path = "/Users/layakishorereddy/Desktop/Rutgers/ChessGPT/ChesssFinal/kaggle2_vocab.txt"  # Update with your tokenizer path
+    model_path = "ChessGpt_Scratch.pth"  # Update with your model path
+    tokenizer_path = "kaggle2_vocab.txt"  # Update with your tokenizer path
     
     tokenizer = Tokenizer(tokenizer_path)
     model = Transformer(
