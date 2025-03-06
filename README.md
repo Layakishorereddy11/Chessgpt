@@ -28,7 +28,7 @@ To run the ChessGPT project locally, follow these steps:
 ### Step 1: Clone the Repository
 First, clone the repository to your local machine:
 ```sh
-git clone repo
+git clone https://github.com/Layakishorereddy11/Chessgpt.git
 cd ChessGPT
 ```
 ### Step 2: Create a Virtual Environment
